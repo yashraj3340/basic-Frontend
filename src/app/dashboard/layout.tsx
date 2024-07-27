@@ -14,8 +14,8 @@ export default function Layout({ children }: LayoutProps): React.JSX.Element {
       <GlobalStyles
         styles={{
           body: {
-            '--MainNav-height': '56px',
-            '--MainNav-zIndex': 1000,
+            '--MainNav-height': '1px',
+            '--MainNav-zIndex': 100,
             '--SideNav-width': '280px',
             '--SideNav-zIndex': 1100,
             '--MobileNav-width': '320px',
